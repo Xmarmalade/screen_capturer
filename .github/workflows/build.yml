@@ -20,7 +20,7 @@ jobs:
         with:
           type: "zip"
           filename: Example-Windows.zip
-          directory: build/windows/x64/runner/Release
+          directory: example/build/windows/x64/runner/Release
       - name: Upload Release Asset
         uses: actions/upload-artifact@v3
         with:
